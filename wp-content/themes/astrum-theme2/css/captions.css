@@ -1,0 +1,81 @@
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700");
+@import url("http://fonts.googleapis.com/css?family=Raleway:800");
+
+.tp-caption.header1 {
+    font-size: 44px;
+    font-weight: 800;
+    color: #444;
+    text-transform: uppercase;
+    font-family: "Raleway";
+    letter-spacing: -0.2px;
+}
+
+.tp-caption.header2 {
+    font-size: 28px;
+    font-weight: 300;
+    color: #a0a0a0;
+    text-transform: uppercase;
+    font-family: "Open Sans";
+}
+
+.tp-caption.text {
+    font-size: 16px;
+    font-weight: 500;
+    color: #888;
+    line-height: 25px;
+    font-family: "Open Sans"
+}
+
+.tp-caption.lighttext {
+    font-size: 16px;
+    font-weight: 500;
+    color: #999;
+    line-height: 25px;
+    font-family: "Open Sans"
+}
+
+.tp-caption.lightheader1 {
+    font-size: 44px;
+    font-weight: 800;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: "Raleway";
+    letter-spacing: -0.2px;
+}
+
+
+.tp-caption.light.header1 {
+    color: #fff;
+}
+
+.tp-caption.light.header2 {
+    color: #aaa;
+}
+
+.tp-caption.light.text {
+    color: #999;
+}
+
+
+.tp-caption.boxshadow{
+        -moz-box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+        -webkit-box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    }
+
+.tp-caption.black{
+        color: #000;
+        text-shadow: none;
+    }
+
+.tp-caption.noshadow {
+        text-shadow: none;
+    }
+
+.tp-caption a {
+    color: #ff7302; text-shadow: none;  -webkit-transition: all 0.2s ease-out; -moz-transition: all 0.2s ease-out; -o-transition: all 0.2s ease-out; -ms-transition: all 0.2s ease-out;
+}
+
+.tp-caption a:hover {
+    color: #ffa902;
+}

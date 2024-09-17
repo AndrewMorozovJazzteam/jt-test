@@ -1,0 +1,349 @@
+.hoverlink {
+  background: url("../../images/hoverlink.png")
+    no-repeat;
+  display: block;
+  height: 19px;
+  width: 19px;
+  margin: 21px 0 0 20px;
+}
+
+#portfolio-wrapper figure:hover .hovercover {
+  opacity: 1;
+}
+
+#portfolio-wrapper figure:hover .hovericon {
+  top: calc(50% - 30px);
+}
+
+#portfolio-wrapper .hovericon {
+  position: absolute;
+  left: calc(50% - 30px);
+  top: calc(50% + 30px);
+  color: #fff;
+  font-size: 18px;
+  width: 60px;
+  height: 60px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+  transition: top 150ms ease-out, opacity 150ms ease-out;
+}
+
+.hovercover {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color: rgba(0, 0, 0, 0.35);
+  opacity: 0;
+  border-radius: 3px;
+  transition: opacity 200ms ease-out;
+}
+
+.portfolio-item .hovercover {
+  border-radius: 3px 3px 0 0;
+}
+
+.portfolio--unify {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.item-description {
+  padding: 18px 20px 24px 20px;
+  text-align: center;
+  background-color: #f6f6f6;
+  box-shadow: inset 0px -1px 0px 0px rgba(0, 0, 0, 0.05);
+  border-radius: 0 0 3px 3px;
+}
+
+.portfolio-item img {
+  border-radius: 3px 3px 0 0;
+}
+
+.item-description,
+.item-description h5,
+.item-description span {
+  transition: all 200ms ease-in-out;
+}
+
+.item-description h5 {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+}
+
+.item-description span {
+  color: #999;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 19px;
+}
+
+#portfolio-wrapper .item-description {
+  padding: 19px 20px 22px 20px;
+}
+#portfolio-wrapper .item-description h5 {
+  line-height: 22px;
+}
+
+#related-work .item-description {
+  padding: 19px 20px 22px 20px;
+}
+#related-work .item-description h5 {
+  line-height: 21px;
+}
+
+.portfolio-item {
+  display: block;
+  background-color: #fff;
+}
+
+#pf_recents {
+  margin-top: 25px;
+}
+
+.portfolio-item:hover > figure > a .item-description {
+  background-color: #dd9425;
+  box-shadow: inset 0px -1px 0px 0px rgba(0, 0, 0, 0.1);
+}
+
+.portfolio-item:hover > figure > a .item-description h5 {
+  color: #fff;
+}
+
+.portfolio-item:hover > figure > a .item-description span,
+.blog-item:hover > figure > a .item-description span {
+  color: #fff;
+  opacity: 0.7;
+  filter: alpha(opacity=70);
+}
+
+.textholder {
+  padding: 10px;
+}
+
+/* Filters
+====================================*/
+
+#portfolio-wrapper .portfolio-item {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+#portfolio-wrapper {
+  /*   margin-bottom: -20px; */
+  min-height: 250px;
+  z-index: 51;
+}
+.nav-next {
+  float: right;
+}
+#filters {
+  margin: 0;
+  float: left;
+}
+#filters ul {
+  margin-left: 0px;
+}
+#filters li {
+  float: left;
+  display: inline-block;
+  line-height: 24px;
+  background: #fff;
+  overflow: hidden;
+}
+
+#filters ul li {
+  display: inline;
+}
+
+#filters a {
+  color: #999;
+  font-size: 14px;
+  font-weight: 500;
+  display: block;
+  white-space: nowrap;
+  padding: 5px 10px;
+  margin: 10px 0 0 5px;
+  border-radius: 3px;
+  background-color: #f2f2f2;
+  line-height: 20px;
+  box-shadow: inset 0px -1px 0px 0px rgba(0, 0, 0, 0.04);
+  transition: background-color 200ms ease-in-out, color 200ms ease-in-out;
+}
+
+#filters a:hover,
+.selected:not(.stars) {
+  background-color: #a0a0a0 !important;
+  color: #fff !important;
+  box-shadow: inset 0px -1px 0px 0px rgba(0, 0, 0, 0.1);
+}
+
+.showing {
+  font-size: 14px;
+  color: #999;
+  line-height: 20px;
+  margin: 5px 0 0 0;
+  padding-right: 3px;
+  display: inline;
+  float: left;
+  z-index: 9;
+  position: relative;
+  background: #fff;
+}
+
+.line.filters {
+  margin: -11px 0 45px 0;
+}
+
+.line.showing {
+  display: none;
+}
+
+#filters a:hover,
+.selected:not(.stars),
+ul.product_list_widget li img:hover,
+#astrum_header_cart ul li img:hover,
+.quantity.buttons_added .plus:hover,
+.quantity.buttons_added .minus:hover {
+  background-color: #dd9425 !important;
+}
+
+figure {
+  display: block;
+}
+
+#portfolio-wrapper {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 3px 3px 0 0;
+}
+
+.mediaholder {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.mediaholder img {
+  width: 100%;
+  display: block;
+  position: relative;
+  max-width: 100%;
+  height: auto;
+  border: 0;
+}
+
+.four.columns {
+  width: calc(25% - 20px);
+  float: left;
+  display: inline;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+@media (max-width: 968px) {
+  .four.columns {
+    width: calc(33% - 20px);
+  }
+}
+
+@media (max-width: 768px) {
+  .four.columns {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+#portfolio-wrapper .container:after,
+body > .container:after {
+  content: "";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+#portfolio-wrapper .clearfix:before,
+#portfolio-wrapper .clearfix:after,
+#portfolio-wrapper .row:before,
+#portfolio-wrapper .row:after {
+  content: "\0020";
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+#portfolio-wrapper .row:after,
+#portfolio-wrapper .clearfix:after {
+  clear: both;
+}
+#portfolio-wrapper .row,
+#portfolio-wrapper .clearfix {
+  zoom: 1;
+}
+#portfolio-wrapper .clear {
+  clear: both;
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+
+.isotope-item {
+  z-index: 2;
+}
+
+.isotope-hidden.isotope-item {
+  pointer-events: none;
+  z-index: 1;
+}
+
+/* Isotope CSS3 transitions */
+.isotope,
+.isotope .isotope-item {
+  transition-duration: 0.8s;
+}
+
+.isotope {
+  transition-property: height, width;
+}
+
+.isotope .isotope-item {
+  -webkit-transition-property: -webkit-transform, opacity;
+  -moz-transition-property: -moz-transform, opacity;
+  -ms-transition-property: -ms-transform, opacity;
+  -o-transition-property: top, left, opacity;
+  transition-property: transform, opacity;
+}
+
+.isotope.no-transition,
+.isotope.no-transition .isotope-item,
+.isotope .isotope-item.no-transition {
+  transition-duration: 0s;
+}
+
+/* Disable CSS transitions for containers with infinite scrolling */
+.isotope.infinite-scrolling {
+  transition: none;
+}
+
+#filters a,
+#portfolio-wrapper *,
+.showing {
+  font-family: "Open sans", sans-serif;
+}
+
+div[data-hidden="full"] {
+  opacity: 0 !important;
+  z-index: -10000 !important;
+} 
