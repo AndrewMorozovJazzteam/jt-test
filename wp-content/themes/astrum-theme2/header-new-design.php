@@ -98,7 +98,7 @@ wp_head();
 <body <?php $style = get_theme_mod( 'astrum_layout_style', 'boxed' ); body_class($style); ?>>
 <noscript><img src="https://mc.yandex.ru/watch/24294061" style="position:absolute; left:-9999px;" alt="" /><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W8WSBXT" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <?php do_action( 'before' ); ?>
-    <header class="header" data-test="212">
+    <header class="header" data-test>
 	  <div class="container header__container">
 		<a class="header__company-logo" href="<?php echo esc_url( home_url( '/' ) ); ?>"><img class="header_company-picture-raw" src="<?php echo get_template_directory_uri().'/new_design_assets/img/logo/company-logo.svg'; ?>" fetchpriority="high" alt="Jazzteam" /></a>
 		<div class="header__core">
